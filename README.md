@@ -13,6 +13,9 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
+## Project Video
+<a href="https://youtu.be/RbjPZAud-h4" target="_blank"><img src="output_images/assembled_img.png" alt="Combined Image" width="480" height="320" border="10" /></a>
+
 
 ## Camera Calibration
 Using OpenCV's 'cv2.findChessboardCorners()' function to obtain two lists of points 'objpoint' (points in 3d space) and 'imgpoints' (points in 2d space).
@@ -117,13 +120,11 @@ A window search takes a histogram of the lower half of the image and identify th
 
 Radius of curvature is implemented using this tutorial (http://www.intmath.com/applications-differentiation/8-radius-curvature.php).
 
-### Draw lane
+### Draw lane & 
 
 Assemble all the images
 
-<img src="output_images/assembled_img.png" alt="Sliding Windows Search" width="989" height="299" border="10" />
-
-### Project video
+<img src="output_images/assembled_img.png" alt="Sliding Windows Search" width="972" height="421" border="10" />
 
 ### Conclusion
 
