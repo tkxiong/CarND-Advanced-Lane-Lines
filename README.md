@@ -120,7 +120,7 @@ A window search takes a histogram of the lower half of the image and identify th
 
 Radius of curvature is implemented using this tutorial (http://www.intmath.com/applications-differentiation/8-radius-curvature.php).
 
-### Draw lane & 
+### Draw lane
 
 Assemble all the images
 
